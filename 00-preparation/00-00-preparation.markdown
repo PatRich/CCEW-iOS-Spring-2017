@@ -3,8 +3,8 @@ Preparation
 
 ## Mac OS
 
-1. Update OS to v10.11.6 - Use App Store from the Apple menu
-2. Update Xcode to v7.3.1 - App Store
+1. Update OS to v10.12.2 - Use App Store from the Apple menu
+2. Update Xcode to v8.2.1 - App Store
 3. Run Xcode, create a new sample project, and build and run it for the simulator. This will install the latest developer tools.
 4. Sign up for a GitHub Account
 5. Install git (Xcode does this for you on the Mac, GitBash on a PC)
