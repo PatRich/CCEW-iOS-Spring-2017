@@ -6,23 +6,24 @@ Swift is a new programming language for iOS, macOS, watchOS, and tvOS apps that 
 
 Tradition suggests that the first program in a new language should print the words “Hello, world!” on the screen. In Swift, this can be done in a single line:
 
-```
+```Swift
  print("Hello, world!")
 ```
 
 # Intro to Swift code
 
 To declare a variable, use the 'var' keyword.
-```
+```Swift
 var myVariable = 42
 myVariable = 50
 ```
 
 The 'Swift' way is to assign fields by default as constants. This can be done in other languages like Java
-```
+```Java
 // Java 
 final int javaConst = 3;
-
+```
+```Swift
 // Swift
 let maximumNumberOfLoginAttempts = 10
 ```
@@ -37,13 +38,13 @@ to determine what type annotation a field is. If you hovered over this variable 
 you could find that the field 'maximumNumberOfLoginAttempts' is of type 'Int.' You can manually
 define a value as a certain type, and in some cases this can improve compile time of your project.
 
-```
-let minValue: Double = 1500.01
+```Swift
+let minimumValue: Double = 1500.01
 ```
 
 >It is best practice to allow the swift compiler to determine a values type annotation
 
-```
+```Swift
 var numberOfLoginsAttempts = 400
 numberOfLoginsAttempts += 1
 ```
@@ -52,7 +53,7 @@ Also notice how there are no semi-colons in Swift. In general,
 you should never have to use semi-colons, although you can use semi-colons 
 to separate two statements on the same line
 
-```
+```Swift
 let minimumThreshold = 400; var name = "John"
 ```
 
@@ -84,8 +85,8 @@ Advanced topics:
 
 Use \() inside a string to allow for expressions and values to be included inside strings.
 
-```
+```Swift
 var name = "John"
 let interpolatedString = "Hello \(name), I am the swift compiler"
-// interpolatedString is a string constant with the value "Hello Jake, I am the swift compiler"
+// interpolatedString is a string constant with the value "Hello John, I am the swift compiler"
 ```
