@@ -7,11 +7,11 @@ The assignments will familiarize you with Xcode’s debugging facilities, includ
 
 Create a new Single View Application. Leave the interface empty, but add a log call to each of the delegate methods implemented in the application delegate, for example:
 
-```objective-c
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-    NSLog(@"applicationWillResignActive");
+```swift
+func applicationWillResignActive(_ application: UIApplication) {
+        print("applicationWillResignActive")
 }
+ // etc
 ```
 
 Run the application in the simulator and see if you can get each method to be called so that it writes your log string to the console. You’ll have to press the home button on the simulator to close your app in order for some of the delegate methods to be called. The home button is the physical, round button with the square in it at the bottom of the device. You can also double click the home button to change the state of your app.
