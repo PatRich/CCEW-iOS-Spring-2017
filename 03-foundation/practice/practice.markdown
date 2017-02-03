@@ -5,7 +5,7 @@ The goal of these assignments is to reinforce your understanding of objective-c'
 
 ## Assignment 1
 
-Create a Single View Application. In the `viewDidLoad:` method assign the following string literal to a local N`String` variable: "This is a string literal with some text in it". Iterate through each character in the string using a for loop and log each individual character to the console.
+Create a Single View Application. In the `viewDidLoad:` method assign the following string literal to a local `String` variable: "This is a string literal with some text in it". Iterate through each character in the string using a for loop and log each individual character to the console.
 
 Hint: use the standard for loop for this assignment
 
