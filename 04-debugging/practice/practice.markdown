@@ -14,6 +14,8 @@ func applicationWillResignActive(_ application: UIApplication) {
  // etc
 ```
 
+Hint: To Exit the app, press CMD+SHIT+H
+
 Run the application in the simulator and see if you can get each method to be called so that it writes your log string to the console. You’ll have to press the home button on the simulator to close your app in order for some of the delegate methods to be called. The home button is the physical, round button with the square in it at the bottom of the device. You can also double click the home button to change the state of your app.
 
 When are the various delegate methods called?
