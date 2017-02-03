@@ -18,7 +18,7 @@ On the first text field, set the Return Key to "Next" in the Attributes Inspecto
 In your view controller implement the `UITextFieldDelegate` method:
 
 ```swift
-- override func textFieldShouldReturn(textField: UITextField)
+- func textFieldShouldReturn(textField: UITextField)
 ```
 
 This should be familiar from previous assignments. Implement that method so that when the user presses the Next key after selecting the first text field, your application shifts the focus to the second text field. This is called changing the *first responder*.
@@ -28,7 +28,7 @@ When the user presses the Done key for the second text field, dismiss the keyboa
 Here’s an example implementation to get you started:
 
 ```swift
-- override func textFieldShouldReturn(textField: UITextField) -> Bool
+- func textFieldShouldReturn(textField: UITextField) -> Bool
 {
     if ( textField == self.firstTextField) {
         secondTextField.becomeFirstResponder()
@@ -54,7 +54,7 @@ I want you to get into the habit of quickly creating custom interfaces and conne
 In your view controller implement the UITextFieldDelegate method:
 
 ```swift
-- override func textFieldShouldReturn(textField: UITextField)
+- func textFieldShouldReturn(textField: UITextField)
 ```
 
 Implement it so that, like Assignment 2, the first responder changes when you click the Next button and the keyboard disappears when your click the Done button.
